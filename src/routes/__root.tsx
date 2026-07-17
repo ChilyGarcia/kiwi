@@ -48,8 +48,8 @@ export const Route = createRootRoute({
       { name: "twitter:title", content: "Kiwi Total · Indumentaria deportiva profesional Colombia" },
       { name: "description", content: "Tienda oficial Kiwi Total. Camisetas, shorts y equipamiento de rugby, fútbol y training para Colombia. Diseño para clubes y mayoristas." },
       { name: "twitter:description", content: "Tienda oficial Kiwi Total. Camisetas, shorts y equipamiento de rugby, fútbol y training para Colombia. Diseño para clubes y mayoristas." },
-      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/e1b46ee2-e6ff-44a3-af49-9133411d7434" },
-      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/attachments/og-images/e1b46ee2-e6ff-44a3-af49-9133411d7434" },
+      { property: "og:image", content: "https://kiwi-six-mu.vercel.app/og-image.png" },
+      { name: "twitter:image", content: "https://kiwi-six-mu.vercel.app/og-image.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },

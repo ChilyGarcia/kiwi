@@ -2,7 +2,7 @@ import { Link } from "@tanstack/react-router";
 import { Search, ShoppingBag, User, Menu, X } from "lucide-react";
 import { useState } from "react";
 import { useCart } from "@/lib/cart";
-import logo from "@/assets/kiwistore-logo.png.asset.json";
+import logo from "@/assets/kiwistore-logo.png";
 
 
 const nav = [
@@ -33,7 +33,7 @@ export function Header() {
 
           <Link to="/" className="flex items-center gap-2 group shrink-0" aria-label="Kiwi Total · Inicio">
             <img
-              src={logo.url}
+              src={logo}
               alt="Kiwi Total"
               className="h-9 md:h-10 w-auto object-contain [filter:invert(1)]"
               width={200}

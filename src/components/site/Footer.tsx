@@ -1,6 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { Instagram, Facebook, Mail, MapPin, Phone, Clock } from "lucide-react";
-import logo from "@/assets/kiwistore-logo.png.asset.json";
+import logo from "@/assets/kiwistore-logo.png";
 
 export function Footer() {
   return (
@@ -8,7 +8,7 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-14 grid gap-10 md:grid-cols-4">
         <div>
           <img
-            src={logo.url}
+            src={logo}
             alt="Kiwi Total"
             className="h-10 w-auto object-contain [filter:invert(1)]"
             width={200}
@@ -29,7 +29,8 @@ export function Footer() {
         <FooterCol title="Tienda" links={[
           ["/tienda", "Todos los productos"],
           ["/tienda", "Clásicas"],
-          ["/tienda", "Suramérica"],
+          ["/tienda", "Camisas"],
+          ["/tienda", "Petos"],
           ["/personaliza-3d", "Personaliza 3D"],
         ]} />
 

@@ -7,7 +7,7 @@ export const Route = createFileRoute("/tienda")({
   head: () => ({
     meta: [
       { title: "Tienda · Kiwi Total" },
-      { name: "description", content: "Colecciones Clásicas y Suramérica: camisetas bordadas y retro fabricadas en Colombia." },
+      { name: "description", content: "Colecciones Clásicas, Suramérica, Camisas y Petos: indumentaria fabricada en Colombia." },
     ],
   }),
   component: Tienda,

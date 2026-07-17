@@ -1,31 +1,31 @@
-import yaguares1 from "@/assets/clubs/YAGUARES_ECUADOR.png.asset.json";
-import yaguares2 from "@/assets/clubs/YAGUARES_2_ECUADOR.png.asset.json";
-import carneros from "@/assets/clubs/CARNEROS_COLOMBIA.png.asset.json";
-import blackGoats from "@/assets/clubs/BLACK_GOATS.png.asset.json";
-import barbariansPa from "@/assets/clubs/BARBARIANS_PANAMA.png.asset.json";
-import barbariansCo from "@/assets/clubs/BARBARIANS_COLOMBIA.png.asset.json";
-import alcatraz from "@/assets/clubs/ALCATRAZ_VENEZUELA.png.asset.json";
-import cerberos from "@/assets/clubs/CERBEROS_ECUADOR.png.asset.json";
-import centinelas from "@/assets/clubs/CENTINELAS_COLOMBIA.png.asset.json";
-import cartago from "@/assets/clubs/CARTAGO_COSTA_RICA.png.asset.json";
-import caronte from "@/assets/clubs/CARONTE_COLOMBIA.png.asset.json";
-import carnotauros from "@/assets/clubs/CARNOTAUROS_COLOMBIA.png.asset.json";
+import yaguares1 from "@/assets/clubs/YAGUARES_ECUADOR.png";
+import yaguares2 from "@/assets/clubs/YAGUARES_2_ECUADOR.png";
+import carneros from "@/assets/clubs/CARNEROS_COLOMBIA.png";
+import blackGoats from "@/assets/clubs/BLACK_GOATS.png";
+import barbariansPa from "@/assets/clubs/BARBARIANS_PANAMA.png";
+import barbariansCo from "@/assets/clubs/BARBARIANS_COLOMBIA.png";
+import alcatraz from "@/assets/clubs/ALCATRAZ_VENEZUELA.png";
+import cerberos from "@/assets/clubs/CERBEROS_ECUADOR.png";
+import centinelas from "@/assets/clubs/CENTINELAS_COLOMBIA.png";
+import cartago from "@/assets/clubs/CARTAGO_COSTA_RICA.png";
+import caronte from "@/assets/clubs/CARONTE_COLOMBIA.png";
+import carnotauros from "@/assets/clubs/CARNOTAUROS_COLOMBIA.png";
 
 type Club = { name: string; country: string; url: string };
 
 const clubs: Club[] = [
-  { name: "Yaguares Mixed Ability", country: "Ecuador", url: yaguares1.url },
-  { name: "Yaguares Rugby Club", country: "Ecuador", url: yaguares2.url },
-  { name: "Carneros Andes RFC", country: "Colombia", url: carneros.url },
-  { name: "Black Goats", country: "Colombia", url: blackGoats.url },
-  { name: "Barbarians Rugby", country: "Panamá", url: barbariansPa.url },
-  { name: "Barbarians Rugby Club", country: "Colombia", url: barbariansCo.url },
-  { name: "Alcatraz Rugby Club", country: "Venezuela", url: alcatraz.url },
-  { name: "Cerberos Rugby Club", country: "Ecuador", url: cerberos.url },
-  { name: "Centinelas Rugby Club", country: "Colombia", url: centinelas.url },
-  { name: "Rugby Cartago", country: "Costa Rica", url: cartago.url },
-  { name: "Caronte Rugby", country: "Colombia", url: caronte.url },
-  { name: "Carnotauros Rugby UNAL", country: "Colombia", url: carnotauros.url },
+  { name: "Yaguares Mixed Ability", country: "Ecuador", url: yaguares1 },
+  { name: "Yaguares Rugby Club", country: "Ecuador", url: yaguares2 },
+  { name: "Carneros Andes RFC", country: "Colombia", url: carneros },
+  { name: "Black Goats", country: "Colombia", url: blackGoats },
+  { name: "Barbarians Rugby", country: "Panamá", url: barbariansPa },
+  { name: "Barbarians Rugby Club", country: "Colombia", url: barbariansCo },
+  { name: "Alcatraz Rugby Club", country: "Venezuela", url: alcatraz },
+  { name: "Cerberos Rugby Club", country: "Ecuador", url: cerberos },
+  { name: "Centinelas Rugby Club", country: "Colombia", url: centinelas },
+  { name: "Rugby Cartago", country: "Costa Rica", url: cartago },
+  { name: "Caronte Rugby", country: "Colombia", url: caronte },
+  { name: "Carnotauros Rugby UNAL", country: "Colombia", url: carnotauros },
 ];
 
 // Split into two visually balanced rows
